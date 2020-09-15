@@ -17,7 +17,7 @@
     
     <!-- define the dependency -->
     <bean id="myFortuneService"
-    	class="com.coxgs.springdemo.HappyFortuneService">  	
+    	class="com.coxgs.springdemo.RandomFortuneService">  	
     </bean>
 
     <bean id="myCoach"
