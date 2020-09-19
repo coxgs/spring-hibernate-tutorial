@@ -11,7 +11,11 @@ public class BeanLifeCycleDemoApp {
 		// retrieve bean from spring container
 		Coach theCoach = context.getBean("myCoach", Coach.class);
 		
+		System.out.println(theCoach.getDailyWorkout());
+		
 		Coach alphaCoach = context.getBean("myCoach", Coach.class);
+		
+		System.out.println(alphaCoach.getDailyWorkout());
 		
 		// check if they are the same 
 		boolean result = (theCoach == alphaCoach);
