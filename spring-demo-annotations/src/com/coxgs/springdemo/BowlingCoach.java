@@ -10,4 +10,10 @@ public class BowlingCoach implements Coach {
 		return "Practice picking up the spares.";
 	}
 
+	@Override
+	public String getDailyFortune() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }
